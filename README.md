@@ -17,7 +17,7 @@ File must be called `todo.md`, `TODO.md`, `_todo.md`, or `_TODO.md` for the plug
 Plugin 'cole-brokamp/vim-todo'
 ```
 
-####Manual installation:
+#### Manual installation:
 
 ```bash
 $ git clone https://github.com/cole-brokamp/vim-todo
