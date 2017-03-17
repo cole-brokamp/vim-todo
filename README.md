@@ -1,4 +1,4 @@
-# todo-vim
+# vim-todo
 
 A simple syntax highlighting plugin for vim.
 
