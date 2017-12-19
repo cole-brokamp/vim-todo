@@ -4,8 +4,10 @@ syn region itemPartiallyDone   start="\[-] " end="$" keepend
 syn region itemCategory   start="#" end="$" keepend
 syn region itemFinished   start="\[x] " end="$" keepend
 
-hi link itemToDo WarningMsg
-hi link itemPartiallyDone Title
+" note: run `:so $VIMRUNTIME/syntax/hitest.vim` to view all highlighting groups
+"
+hi link itemToDo pandocBlockQuoteLeader4
+hi link itemPartiallyDone pandocBlockQuoteLeader3
 hi link itemCategory pandocStrikeoutTable
-hi link itemFinished Statement
-highlight itemToDoNow cterm=standout ctermbg=9 ctermfg=235
+hi link itemFinished pandocFootnote
+hi link itemToDoNow pandocListReference
