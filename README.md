@@ -6,7 +6,7 @@ A simple syntax highlighting plugin for vim.
 
 ## Using
 
-File must be called `todo.md`, `TODO.md`, `_todo.md`, or `_TODO.md` for the plugin to automatically activate. Use syntax as seen in the screenshot above.  Only syntax highlighting is modified with this plugin; indentation and other actions from regular vim markdown mode are still active.
+File must be called `_todo.txt` for the plugin to automatically activate. This was changed from `_todo.md` to prevent conflicts with `vim-markdown` and/or `vim-pandoc-syntax`. Use syntax as seen in the screenshot above.  Only syntax highlighting is modified with this plugin; indentation and other actions from regular vim markdown mode are still active.
 
 ## Installation
 
